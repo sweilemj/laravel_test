@@ -1,7 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: SWEILEM
- * Date: 23/03/18
- * Time: 05:53 ص
- */
+@extends('posts.app')
+
+@section('content')
+    <h3>{{$post->title}}</h3>
+    <text>{{$post->created_at}}</text>
+    <hr>
+
+
+    <p>{{$post->body}}</p>
+
+
+
+
+
+@endsection
